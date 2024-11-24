@@ -1,26 +1,15 @@
-# My plugin
+# Purrfect Pizza Planner
 
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
+<img width="400" src="./assets/pizza_cat2.webp"/>
 
-Write here all the useful information about your plugin.
+This repo contains the source code of the [Purrfect Pizza Planner Tutorial](https://cheshirecat.ai/blog/).
 
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+This tutorial shows how to use Cheshire-Cat to build a pizza order bot, explaining the main concepts around
+conversational forms and providing a hands-on example. I suggest you to use this repo as a reference while following 
+the article step-by-step.
 
-## Usage
+## Try it out
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
-
-4. Start developing!
-
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
+If you're in a hurry and you don't want to read the article you can just clone this repo in your plugins
+folder and try it out directly as a standard Cheshire Cat plugin.
 

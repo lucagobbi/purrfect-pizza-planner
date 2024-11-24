@@ -1,10 +1,11 @@
 {
-    "name": "My plugin",
+    "name": "Purrfect Pizza Planner",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
+    "description": "Order your Pizza in purrfect way - meooow!",
+    "author_name": "Luca Gobbi",
+    "author_url": "https://github.com/lucagobbi",
+    "plugin_url": "https://github.com/lucagobbi/purrfect-pizza-planner",
+    "tags": "cat, tutorial, pizza, form, order",
+    "thumb": "https://raw.githubusercontent.com/lucagobbi/purrfect-pizza-planner/master/docs/purrfect-pizza-planner/main/assets/pizza_cat2.webp"
 }
+
