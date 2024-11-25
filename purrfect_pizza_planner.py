@@ -2,7 +2,6 @@ from typing import Optional, List
 from pydantic import BaseModel, Field, field_validator, ValidationInfo
 
 from cat.experimental.form import form, CatForm
-from cat.log import log
 
 # A fake database to simulate existing orders at certain times
 fake_db = {
@@ -45,7 +44,6 @@ class PizzaOrder(BaseModel):
     @classmethod
     def check_availability(cls, v: str, info: ValidationInfo) -> str:
         if v in fake_db:
-            log.critical("The desired time is already taken")
             raise ValueError("The desired time is already taken")
         return v
 
